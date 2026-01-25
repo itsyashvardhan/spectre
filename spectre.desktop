@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=SPECTRE
+Comment=Advanced System Interface & Hacker Dashboard
+Exec=spectre
+Icon=/media/yashvs/vault/spectre/ghost.png
+Terminal=true
+Categories=System;Utility;TerminalEmulator;
+StartupNotify=true
+Keywords=hacker;dashboard;system;monitor;

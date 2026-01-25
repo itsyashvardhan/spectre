@@ -1,0 +1,54 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# GHOST PROTOCOL - LINUX AUTO-RUN SETUP
+# ═══════════════════════════════════════════════════════════════════════════════
+# 
+# To enable auto-run when USB is plugged in, you need to set up a udev rule.
+# This requires root access and is a one-time setup.
+#
+# STEP 1: Find your USB's Vendor and Product ID
+# ---------------------------------------------
+# Plug in your USB and run:
+#   lsusb
+# 
+# Look for your USB device, e.g:
+#   Bus 002 Device 003: ID 0781:5583 SanDisk Corp. Ultra Fit
+#                          ^^^^:^^^^ 
+#                          Vendor:Product ID
+#
+# STEP 2: Create the udev rule
+# ----------------------------
+# Run these commands (replace XXXX:YYYY with your USB's IDs):
+#
+#   sudo nano /etc/udev/rules.d/99-ghost-usb.rules
+#
+# Add this line (modify vendor/product IDs):
+#
+#   ACTION=="add", ATTRS{idVendor}=="XXXX", ATTRS{idProduct}=="YYYY", RUN+="/path/to/usb/ghost-autorun.sh"
+#
+# STEP 3: Create the autorun script
+# ---------------------------------
+# The ghost-autorun.sh script is already on your USB.
+# Just update the path in the udev rule above.
+#
+# STEP 4: Reload udev rules
+# -------------------------
+#   sudo udevadm control --reload-rules
+#   sudo udevadm trigger
+#
+# STEP 5: Test
+# ------------
+# Unplug and replug your USB. Ghost Protocol should launch automatically!
+#
+# ═══════════════════════════════════════════════════════════════════════════════
+# ALTERNATIVE: Desktop Autorun (Easier but manual)
+# ═══════════════════════════════════════════════════════════════════════════════
+# 
+# For Nautilus/GNOME Files:
+#   1. Open Files preferences (Ctrl+,)
+#   2. Enable "Run executable text files when they are opened"
+#   3. Double-click GhostProtocol.desktop when USB opens
+#
+# For other file managers:
+#   - Right-click run.sh → "Run as program"
+#   - Or open terminal in USB folder and run: ./ghost.py
+#
