@@ -1,4 +1,8 @@
-# <img src="spectre.png" height="32" align="center"> SPECTRE
+<p align="center">
+  <img src="spectre_banner.png" alt="SPECTRE GitHub Banner" width="100%">
+</p>
+
+# SPECTRE
 
 [![GitHub version](https://img.shields.io/github/v/release/itsyashvardhan/spectre?include_prereleases&style=for-the-badge&color=white&labelColor=black)](https://github.com/itsyashvardhan/spectre/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-white.svg?style=for-the-badge&labelColor=black)](https://opensource.org/licenses/MIT)
