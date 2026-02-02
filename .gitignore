@@ -7,3 +7,6 @@ releases/
 build_workspace/
 artifacts/build_workspace/
 HOW_TO_DISTRIBUTE.md
+
+.opencode/
+opencode.jsonc
