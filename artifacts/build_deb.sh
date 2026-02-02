@@ -2,7 +2,7 @@
 set -e
 
 # Configuration
-APP_NAME="spectral"
+APP_NAME="spectral-tui"
 VERSION="1.0.2"
 ARCH="all"
 BUILD_DIR="build_workspace"
@@ -97,7 +97,7 @@ mkdir -p "$BUILD_DIR/usr/share/metainfo"
 cat <<EOF > "$BUILD_DIR/usr/share/metainfo/spectre.appdata.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>dev.yashvs.spectral</id>
+  <id>dev.yashvs.spectral-tui</id>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <name>Spectral</name>
