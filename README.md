@@ -1,6 +1,18 @@
-# <img width="1280" height="640" alt="spectral" src="https://github.com/user-attachments/assets/686d413c-b379-4807-9a0c-ff3c3af9fd59" />
-
-# SPECTRAL
+<p align="center">
+<pre style="font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+           font-size: 12px;
+           line-height: 1.15;
+           white-space: pre;
+           overflow-x: auto;
+           margin: 0;">
+███████╗██████╗ ███████╗ ██████╗████████╗██████╗  █████╗ ██╗     
+██╔════╝██╔══██╗██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██║     
+███████╗██████╔╝█████╗  ██║        ██║   ██████╔╝███████║██║     
+╚════██║██╔═══╝ ██╔══╝  ██║        ██║   ██╔══██╗██╔══██║██║     
+███████║██║     ███████╗╚██████╗   ██║   ██║  ██║██║  ██║███████╗
+╚══════╝╚═╝     ╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+</pre>
+</p>
 
 [![GitHub version](https://img.shields.io/github/v/release/itsyashvardhan/spectral-tui?include_prereleases&style=for-the-badge&color=white&labelColor=black)](https://github.com/itsyashvardhan/spectral-tui/releases/tag/1.0.2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-white.svg?style=for-the-badge&labelColor=black)](https://opensource.org/licenses/MIT)
